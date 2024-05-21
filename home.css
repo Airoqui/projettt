@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 1%, 39%);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    height: 80px;
+    margin-bottom: 20px;
+    color: #fffdfd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+nav {
+    background-color: #3d3c3c;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: baseline;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid rgb(243, 241, 241);
+    margin: 10px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+nav ul a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+form {
+    text-align: right;
+    margin: 20px 0;
+}
+
+input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 1700px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.home-text, .AboutUs-text, .contact-form, .testimonials, .photo-gallery, .blog-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.home-text h2, .AboutUs-text h3, .contact-form h3, .testimonials h3, .photo-gallery h3, .blog-section h3 {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.home-text p, .AboutUs-text p, .contact-form p, .testimonials p, .photo-gallery p, .blog-section p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #fefdff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+.scroll-container img {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust the width for better display */
+    height: 200px; /* Adjust the height for better display */
+    border-radius: 50%; /* Make images circular */
+    margin-right: 10px;
+    scroll-snap-align: start;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-container img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.scroll-container img:active {
+    transform: scale(0.9); /* Zoom out effect on click */
+}
