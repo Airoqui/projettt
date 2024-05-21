@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #635f5f;
+}
+.AboutUs-text h4 {
+    color: #f1ebeb; 
+    text-align: center;
+    font-size: 40px; 
+    margin-bottom: 10px; 
+}
+.image img {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    height: auto;
+    margin-right:150px;
+    flex: 1;
+  }
+  .text h5 {
+    color: #f0e7e7; 
+    font-size: 40px; 
+    margin-bottom: 10px; 
+}.btn-adp {
+border: none;
+padding: 20px 30px;
+background-color: #333;
+color: #fff;
+font-size: 50px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.btn-adp:hover {
+background-color: #555;
+}
+nav {
+  
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    float: left;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #020e0e;
+    padding: 10px 20px;
+    border: 1px solid beige;
+    margin: 10px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+form{
+    padding: 35px;
+    text-align: right;
+
+}
+input[type="search"]{
+    font-size: right;
+}
+
+.circle-img {
+    width: 150px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 150px; /* Ajustez la taille de l'image selon vos besoins */
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+}
