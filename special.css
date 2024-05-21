@@ -1,0 +1,82 @@
+/* CssSpec.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3e3e3f;
+    color: #333;
+}
+
+.special-text {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.special-text h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.special-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.special-text p strong {
+    color: #2980b9;
+}
+
+.special-text p:last-child {
+    margin-bottom: 0;
+}
+  .tex h5 {
+    color: #050505; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}.btn-adp {
+border: none;
+padding: 20px 30px;
+background-color: #333;
+color: #0e0e0e;
+font-size: 50px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.btn-adp:hover {
+background-color: #773737;
+}
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime le margin par défaut */
+}
+
+nav li {
+    display: inline; /* Affiche les éléments de la liste sur une seule ligne */
+}
+
+nav a {
+    text-decoration: none; /* Supprime le soulignement du lien */
+    color: white; /* Couleur du texte */
+    background-color: #646864; /* Couleur de fond du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Animation lors du changement de couleur de fond */
+}
+
+nav a:hover {
+    background-color: #646864; /* Couleur de fond lors du survol */
+}
+
+nav a:active {
+    background-color: #646864; /* Couleur de fond lors du clic */
+}
